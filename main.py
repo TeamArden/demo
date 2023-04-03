@@ -6,10 +6,11 @@
 a = [1,2,3,4,5,6,7]
 def print_hi(name):
     for a in name:
-    # Use a breakpoint in the code line below to debug your script.
-        print(f'Hi, {a}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
+    # Use a bra
+        if a % 2 == 0:
+            print("четное")
+        else:
+            print("не четное")
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi(a)
